@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "arn:aws:s3:::jvelezb-terraform-backend-bucket"
+    bucket = "jvelezb-terraform-backend-bucket"
     key    = "terraform_state_files/example_app.tfstate"
     region = "us-east-1"
     encrypt = false
